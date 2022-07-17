@@ -45,3 +45,5 @@ The row operation 2 get the wrong answer
 
 ## 其他注記
 + 在計算第幾列時候所用的index，在Python中為從0開始、在Matlab中為從1開始
++ 繳交python作業的時候請交以下檔案：`my_solve.py`
++ 繳交matlab作業的時候請交以下檔案：`row_op1.m`, `row_op2.m`, `row_op3.m`, `get_rank.m`,
