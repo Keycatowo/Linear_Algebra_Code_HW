@@ -24,3 +24,24 @@ pytest test_hw3.py
 
 失敗畫面
 ![](https://i.imgur.com/1207NOe.png)
+
+
+### Matlab執行範例測資
+
+成功畫面
+```
+PASS: test op3
+PASS: test op2
+PASS: test op1
+PASS: test rank
+```
+
+失敗畫面
+```
+Error using test_hw3 (line 25)
+The row operation 2 get the wrong answer
+```
+
+
+## 其他注記
++ 在計算第幾列時候所用的index，在Python中為從0開始、在Matlab中為從1開始
