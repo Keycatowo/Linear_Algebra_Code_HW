@@ -20,7 +20,7 @@ Please complete the **three different row operations of the matrix** and **find 
 ```
 pytest test_hw3.py
 ```
-Through the screen
+Success Screen
 ![](https://i.imgur.com/Wc1u2P6.png)
 
 Failure Screen
