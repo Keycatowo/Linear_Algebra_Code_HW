@@ -95,7 +95,7 @@ plt.show()
 #       you can reduce the size N or num_degrees.
 from pathlib import Path
 Path("output").mkdir(exist_ok=True)
-num_degrees = 180
+num_degrees = 50
 thetas = np.deg2rad(np.linspace(0,360,num_degrees))
 ms = np.tan(thetas) # m = y/x = tan(theta)
 for index, m in enumerate(ms):
@@ -117,7 +117,7 @@ for index, m in enumerate(ms):
 # plot with gif animation
 import imageio
 from glob import glob
-with imageio.get_writer("Error change.gif", mode="I") as writer:
+with imageio.get_writer("output.gif", mode="I") as writer:
     for i in range(num_degrees):
         filename = f"output/{i}.png"
         img = imageio.imread(filename)
