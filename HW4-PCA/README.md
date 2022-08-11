@@ -11,8 +11,8 @@ Use diagonalization to get the pinciple axes.
     + `get_error.m`: Don't need to modify, just submmit.
     + `HW4_{ID}.m`: Finish the `HW4_starter.m` and rename it. (eg. `HW4_110061553.m`)
 + For Python, please submmit:
-    + `HW4_{ID}.m`: Finish the `HW4_starter.m` and rename it. (eg. `HW4_110061553.m`)
-    + `output_{ID}.m`: Run the code you will get `output.py`, rename it.
+    + `HW4_{ID}.py`: Finish the `HW4_starter.m` and rename it. (eg. `HW4_110061553.m`)
+    + `output_{ID}.gif`: Run the code you will get `output.py`, rename it.
 
 ## Demo
 After finish your part, continue run the code. You will see how the total error change with different axes.  
