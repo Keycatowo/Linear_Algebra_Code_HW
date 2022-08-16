@@ -19,6 +19,8 @@
 	+ 左右同乘$(A^TA)^{-1}$
 		+ $\vec{x} = (A^TA)^{-1}(A^T\vec{b})$
 		+ **Note: 這邊不可以把$(A^TA)^{-1}$拆開變成$A^{-1}(A^{T})^{-1}$，因為$A$和$A^T$都不是方陣**
+> 發現Github好像不支援部分的Latex語法，所以我更新一下圖片
+> ![](https://i.imgur.com/jVmSciF.png)
 
 ## HW Objective and summbit
 ### Objective
