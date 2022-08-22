@@ -34,6 +34,30 @@ Finsh the code and solve the least square sol with `Ax=b`, we name the sol `beta
 + For Python, please submmit:
     + `HW5_{ID}.py`: Finish the `HW5_starter.m` and rename it. (eg. `HW5_110061553.m`)
 
+## Dataset Description
+> -   age age in years
+>     
+> -   sex
+>     
+> -   bmi body mass index
+>     
+> -   bp average blood pressure
+>     
+> -   s1 tc, total serum cholesterol
+>     
+> -   s2 ldl, low-density lipoproteins
+>     
+> -   s3 hdl, high-density lipoproteins
+>     
+> -   s4 tch, total cholesterol / HDL
+>     
+> -   s5 ltg, possibly log of serum triglycerides level
+>     
+> -   s6 glu, blood sugar level
+>
+
+
+
 ## Reference
 + [Diabetes Data](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.html)
 + [Least squares I: Matrix problems - YouTube](https://www.youtube.com/watch?v=Z0wELiinNVQ)
