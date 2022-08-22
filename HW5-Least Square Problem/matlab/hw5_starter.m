@@ -27,6 +27,7 @@ T = readtable('../diabetes.csv');
 x = table2array(T(:, 3));
 y = table2array(T(:, 11));
 
+figure(2);
 mdl = fitlm(x,y);
 
 plotAdded(mdl);
