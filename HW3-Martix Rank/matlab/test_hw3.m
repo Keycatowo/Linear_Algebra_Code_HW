@@ -1,4 +1,5 @@
 %%
+clear; clc;
 A = [1 -2 1 5;
      2 0 3 -6;
      3 -1 2 -1
@@ -12,7 +13,7 @@ ans_B = [1 -2 1 5;
          2 0 3 -6
 ];
 
-assert(all(all(B == ans_B)), "The row operation 3 get the wrong answer")
+assert(max(max(abs(B - ans_B))) < 0.01, "The row operation 3 get the wrong answer")
 disp("PASS: test op3")
 
 %% test matrix op 2
@@ -22,7 +23,7 @@ ans_B = [1 -2 1 5;
          3 -1 2 -1
 ];
 
-assert(all(all(B == ans_B)), "The row operation 2 get the wrong answer")
+assert(max(max(abs(B - ans_B))) < 0.01, "The row operation 2 get the wrong answer")
 disp("PASS: test op2")
 
 %% test matrix op 1
@@ -33,13 +34,13 @@ ans_B = [1 -2 1 5;
          0 5 -1 -16
 ];
 
-assert(all(all(B == ans_B)), "The row operation 1 get the wrong answer")
+assert(max(max(abs(B - ans_B))) < 0.01, "The row operation 1 get the wrong answer")
 disp("PASS: test op1")
 
 %% test get rank
-rank = get_rank(A)
+my_rank = get_rank(A)
 ans_rank = 3;
 
-assert(rank==ans_rank, "The rank is wrong.")
+assert(my_rank==ans_rank, "The rank is wrong.")
 disp("PASS: test rank")
 
