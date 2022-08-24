@@ -1,6 +1,7 @@
 #%%
 from my_solve import row_op1, row_op2, row_op3, get_rank
 import numpy as np
+from numpy.testing import assert_almost_equal
 #%%
 def test_op3():
     A = np.array([
@@ -16,7 +17,7 @@ def test_op3():
     
 
     row_op3(A, 1, 2)
-    assert np.all(A == B), "The row operation 3 get the wrong answer"
+    assert_almost_equal(A, B), "The row operation 3 get the wrong answer"
     print("PASS: test op3")
 
 #%%
@@ -34,7 +35,7 @@ def test_op2():
     
 
     row_op2(A, 1, 1/2)
-    assert np.all(A == B), "The row operation 2 get the wrong answer"
+    assert_almost_equal(A, B), "The row operation 2 get the wrong answer"
     print("PASS: test op2")
 
 # %%
@@ -53,7 +54,7 @@ def test_op1():
 
     row_op1(A, 0, -2, 1)
     row_op1(A, 0, -3, 2)
-    assert np.all(A == B), "The row operation 1 get the wrong answer"
+    assert_almost_equal(A, B), "The row operation 1 get the wrong answer"
     print("PASS: test op1")
 
 #%%
