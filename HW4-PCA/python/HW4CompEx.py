@@ -49,7 +49,7 @@ def get_error(x0, y0,m):
     y1 = x1*m
     dis = (x0 - x1)**2 + (y0 - y1)**2
     return dis, x1, y1 
-``
+
 m_axe1 = prinAxes[1,0] / prinAxes[0,0]
 m_axe2 = prinAxes[1,1] / prinAxes[0,1]
 
